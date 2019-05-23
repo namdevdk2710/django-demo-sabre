@@ -35,7 +35,8 @@
           <div class="col-md-12 tabulation-search">
             <div class="element-animate">
               <div class="nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                <a class="nav-link p-3 active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><span>01</span> Flight</a>
+                <a class="nav-link p-3 active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">One Way</a>
+                <a class="nav-link p-3" id="v-pills-about-tab" data-toggle="pill" href="#v-pills-about" role="tab" aria-controls="v-pills-about" aria-selected="true">Round Trip</a>
               </div>
             </div>
               
@@ -65,6 +66,47 @@
                         </select>
                       </div>
 
+                      <div class="check-out one-third"><input type="text" id="checkout_date" class="form-control" placeholder="Check-in date"></div>
+                      <div class="select-wrap one-third">
+                        <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                        <select name="" id="" class="form-control">
+                          <option value="">Guest</option>
+                          <option value="">1</option>
+                          <option value="">2</option>
+                          <option value="">3</option>
+                          <option value="">4+</option>
+                        </select>
+                      </div>
+                    </div>
+                    <input type="submit" class="search-submit btn btn-primary" value="Find Flights">  
+                  </form>
+                </div>
+              </div>
+              <div class="tab-pane" id="v-pills-about" role="tabpanel" aria-labelledby="v-pills-about-tab">
+                <div class="block-17">
+                  <form action="" method="post" class="d-block d-lg-flex">
+                    <div class="fields d-block d-lg-flex">
+                      <div class="textfield-search one-third">
+                        <select class="form-control">
+                          <option value="">Choose a location</option>
+                          <option value="">Ha Noi</option>
+                          <option value="">HCM</option>
+                          <option value="">Da Nang</option>
+                          <option value="">Nha Trang</option>
+                        </select>
+                      </div>
+
+                      <div class="textfield-search one-third">
+                        <select class="form-control">
+                          <option value="">Choose destination</option>
+                          <option value="">Ha Noi</option>
+                          <option value="">HCM</option>
+                          <option value="">Da Nang</option>
+                          <option value="">Nha Trang</option>
+                        </select>
+                      </div>
+
+                      <div class="check-out one-third"><input type="text" id="checkout_date" class="form-control" placeholder="Check-in date"></div>
                       <div class="check-out one-third"><input type="text" id="checkout_date" class="form-control" placeholder="Check-out date"></div>
                       <div class="select-wrap one-third">
                         <div class="icon"><span class="ion-ios-arrow-down"></span></div>
